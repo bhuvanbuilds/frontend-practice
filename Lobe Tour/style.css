@@ -1,0 +1,131 @@
+body {
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.navigation {
+    display: flex;
+    gap: 3rem;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #767676;
+    font-weight: 600;
+}
+
+.download-btn {
+    color: white;
+    font-weight: 500;
+    padding: .7rem 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 25px;
+    border: none;
+    background-color: #04ddb2;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero h1 {
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+.hero h1 span {
+    color: #04ddb2;
+}
+
+.hero p {
+    text-align: center;
+    color: #767676;
+    font-size: 1.5rem;
+}
+.hero img {
+    border-radius: 25px;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cta h2 {
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.cta .download-btn {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 100px;
+    margin-bottom: 4%;
+}
+
+footer {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 0 24px;
+    border-top: 1px solid #767676;
+    padding: 20px 0 40px;
+}
+
+footer .container {
+    display: flex;
+    align-items: flex-start;
+    gap: 4rem;
+}
+
+.center {
+    display: flex;
+    gap: 6rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.list h4 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.list a{
+    text-decoration: none;
+    color: #767676;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+.right {
+    display: flex;
+    gap: 1rem;
+}
+
+.icon {
+    background-color: #04ddb2;
+    padding: .5rem .8rem;
+    border-radius: 100%;
+    color: aliceblue;
+}
